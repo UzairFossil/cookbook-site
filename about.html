@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2><a href="/index.html">Cookbook</a></h2>
+        </div>
+        <div class="header-child-second">
+            <div class="nav">
+                <h4><a href="/about.html">About</a></h4>
+                <h4><a href="/privacy-policy.html">Privacy policy</a></h4>
+            </div>
+            <button>Download</button>
+        </div>
+        <svg class="menu-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="#9a2da1"
+                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+        </svg>
+
+    </header>
+    <div class="menu meenu">
+        <nav>
+            <h4><a href="/about.html">About</a></h4>
+            <h4><a href="privacy-policy.html">Privacy policy</a></h4>
+            <button>Download</button>
+
+        </nav>
+
+    </div>
+    <main>
+
+        <section class="section">
+            <h2>Site description</h2>
+            <p>Its a site i made in html using css for styling and vanilla JavaScript for other functions such as
+                animations, popups etc. It's based on an app i have build but the main purpose of this site is to
+                showcase my web dev skills. I made a replica of this site on wordpress as well. No library was used and
+                all the functions are made in scratch.
+
+                To demonstrate that its truly made by me, I can provide its source code. It is my first personal project
+                to showcase but i am not new to development as i have worked on sites before, albeit most of the time it
+                included just fixing bugs and making the site responsive for every size.
+
+                The main thing i focused on it, are the animations. Mainly transitions that happens when the user is on
+                a specific section. I have provided a video below to show how the animations work on both the
+                mobile and desktop.</p>
+        </section>
+        <section class="section">
+            <h2>App description</h2>
+            <p>It is in react native expo in which users can add recipes, update, delete them. After making it work
+                offline, I add online features in it such as signup/signin, online database. Users are able to store
+                their recipes online bounded with their account.Registering or logging in automatically uploads all the
+                offline recipes into online database.
+                I added another feature of storing recipes offline until user connects to internet. This happens only if
+                the user is logged into an account.
+                I connected database with expressJS.
+                The other featues includes a shopping cart where users can enter items with their prices. There is also
+                a food randomizer where all the recipes are shuffled and one is shown. You may remove/add any recipe
+                from the randomizer.
+                I also added the ability to share recipes and add them into favourites.
+                I used mongodb for database. The whole took me about a month or two as i was learning react native and
+                backend along building it.
+            </p>
+        </section>
+        <section class="section faq-section">
+            <h2 class="faq-section-heading"><span>F</span><span>A</span><span>Q</span></h2>
+            <div class="faq-container">
+                <h3>how much time did it take you to build the whole app and the site?</h3>
+                <div class="faq-content">
+                    <p>It took me about a month or two. In hours, its likely less than 30. For the site, it took me
+                        about 5-7 hours. That includes getting assets for it.</p>
+                </div>
+            </div>
+            <div class="faq-container">
+                <h3>Did you use any library on it?</h3>
+                <div class="faq-content">
+                    <p>I didnt. All the code comes from javascript and i also didnt use any css framework.</p>
+                </div>
+            </div>
+            <div class="faq-container">
+                <h3>Were you the only one to work on the site and app?</h3>
+                <div class="faq-content">
+                    <p>Yes.</p>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div>
+                <h1>Cookbook</h1>
+            </div>
+            <h3>Made and designed by Uzair</h3>
+        </footer>
+    </main>
+
+    <script src="/header-script.js"></script>
+    <script src="/FAQ.js"></script>
+</body>
+
+</html>
